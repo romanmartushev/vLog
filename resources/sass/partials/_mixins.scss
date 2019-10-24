@@ -1,0 +1,3 @@
+@mixin faded_background($color,$alpha) {
+  background-color: rgba($color, $alpha * .1 );
+}
